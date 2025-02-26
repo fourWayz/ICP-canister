@@ -3,6 +3,10 @@
 # Task Management App on ICP
 
 This is a task management application built on the Internet Computer (ICP). The app allows users to create, manage, and track tasks through a smart contract deployed on ICP.
+![4w-canisters](https://github.com/user-attachments/assets/d15df826-d833-40ab-b0de-09be67551d1e)
+![4w-deployed](https://github.com/user-attachments/assets/cda8cdcb-f1b1-46b4-8cdb-f1d1d8dc4de3)
+
+
 
 ## Features
 
