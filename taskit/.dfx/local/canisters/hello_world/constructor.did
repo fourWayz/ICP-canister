@@ -1,0 +1,25 @@
+service : () -> {
+  assignTask : (nat, principal) -> (bool);
+  completeTask : (nat) -> (bool);
+  createTask : (text, text) -> (nat);
+  deleteTask : (nat) -> (bool);
+  getAllTasks : () -> (
+      vec record {
+        id : nat;
+        title : text;
+        assignedTo : opt principal;
+        isCompleted : bool;
+        description : text;
+      },
+    ) query;
+  getTaskById : (nat) -> (
+      opt record {
+        id : nat;
+        title : text;
+        assignedTo : opt principal;
+        isCompleted : bool;
+        description : text;
+      },
+    ) query;
+  updateTask : (nat, text, text) -> (bool);
+}
