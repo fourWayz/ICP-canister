@@ -1,4 +1,4 @@
-# CANISTER ID : bd3sg-teaaa-aaaaa-qaaba-cai&id=bkyz2-fmaaa-aaaaa-qaaaq-cai
+# CANISTER ID : bd3sg-teaaa-aaaaa-qaaba-cai
 
 # Task Management App on ICP
 
